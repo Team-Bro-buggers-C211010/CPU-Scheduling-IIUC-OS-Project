@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <!-- <link href="css/wp class09.css" rel="stylesheet" type="text/css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script src="https://kit.fontawesome.com/aeaeb428af.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background: #141E30;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+    .section {
+      text-align: center;
+      padding: 20px;
+      color: rgb(255, 0, 0);
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(255, 3, 3, 0.176);
+      border-radius: 8px;
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 50%;
+    }
+
+    .card h2 {
+      margin-top: 10px;
+      color: #333;
+    }
+
+    .card p {
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="family">
+    <div class="all">
+      <!-- About Us Section -->
+      <div class="section">
+        <h2>About Us</h2>
+        <div class="card-container">
+          <div class="card animate__animated animate__slideInLeft">
+            <img src="image/Shovan.jpg" alt="Shovan Bhattacharjee">
+            <h2>Shovan Bhattacharjee</h2>
+            <p>ID: C211010</p>
+          </div>
+
+          <div class="card animate__animated animate__slideInDown">
+            <img src="image/Imon.jpg" alt="Imon Shahriar Ifti">
+            <h2>Imon Shahriar Ifti</h2>
+            <p>ID: C211029</p>
+          </div>
+          <div class="card animate__animated animate__slideInUp">
+            <img src="image/Arif_BG.jpg" alt="Md Arif Rahman">
+            <h2>Md Arif Rahman</h2>
+            <p>ID: C211024</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Sir Section -->
+      <div class="section">
+        <h2>Our Sir</h2>
+        <div class="card-container">
+          <div class="card animate__animated animate__slideInRight">
+            <img src="image/AS_Sir.jpg" alt="Our Sir">
+            <h2>G.M. Al-Arafat Shaown</h2>
+            <p>Position: Assistant Lecturer,Dept. of CSE,IIUC</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
